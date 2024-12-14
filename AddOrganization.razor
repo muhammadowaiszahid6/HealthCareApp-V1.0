@@ -1,0 +1,84 @@
+<PageTitle>Add Organization</PageTitle>
+<RadzenColumn SizeMD="12">
+    <RadzenAlert Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">Cannot save Organization</RadzenAlert>
+    <RadzenTemplateForm TItem="App2.Models.healthcaredb.Organization" Data="@organization" Visible="@(organization != null && canEdit)" Submit="@FormSubmit">
+      
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Organization Name" Component="OrganizationName" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.OrganizationName" Name="OrganizationName" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="N P I" Component="NPI" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.NPI" Name="NPI" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Admin Name" Component="AdminName" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.AdminName" Name="AdminName" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Email" Component="Email" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.Email" Name="Email" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Phone" Component="Phone" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.Phone" Name="Phone" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Extension" Component="Extension" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.Extension" Name="Extension" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Fax" Component="Fax" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.Fax" Name="Fax" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Delegated Credentialing" Component="DelegatedCredentialing" style="margin-right: 1rem" />
+                <RadzenCheckBox @bind-Value="@organization.DelegatedCredentialing" Name="DelegatedCredentialing" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Request Delegated Credentialing" Component="RequestDelegatedCredentialing" style="margin-right: 1rem" />
+                <RadzenCheckBox @bind-Value="@organization.RequestDelegatedCredentialing" Name="RequestDelegatedCredentialing" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Do Not Contact" Component="DoNotContact" style="margin-right: 1rem" />
+                <RadzenCheckBox @bind-Value="@organization.DoNotContact" Name="DoNotContact" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Next Audit Date" Component="NextAuditDate" style="margin-right: 1rem" />
+                <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.NextAuditDate" Name="NextAuditDate" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Termination Date" Component="TerminationDate" style="margin-right: 1rem" />
+                <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.TerminationDate" Name="TerminationDate" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Termination Reason" Component="TerminationReason" style="margin-right: 1rem" />
+                <RadzenTextBox style="display: inline-block; width: calc(100% - 1rem)" @bind-Value="@organization.TerminationReason" Name="TerminationReason" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+            <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Save" Variant="Variant.Flat" />
+            <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Variant="Variant.Flat" Click="@CancelButtonClick" />
+        </RadzenStack>
+    </RadzenTemplateForm>
+</RadzenColumn>

@@ -1,0 +1,64 @@
+@page "/add-speciality"
+
+<PageTitle>Add Speciality</PageTitle>
+<RadzenColumn SizeMD=12>
+    <RadzenAlert Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">
+        Cannot save Speciality
+    </RadzenAlert>
+    <RadzenTemplateForm TItem="App2.Models.healthcaredb.Speciality" Data="@speciality" Visible="@(speciality != null && canEdit)" Submit="@FormSubmit">
+       
+        <RadzenRow style="margin-bottom: 1rem">
+            
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Speciality1" Component="Speciality1" style="width: 100%" />
+                <RadzenTextBox style="display: block; width: 100%" @bind-Value="@speciality.Speciality1" Name="Speciality1" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Qualifier" Component="Qualifier" style="width: 100%" />
+                <RadzenTextBox style="display: block; width: 100%" @bind-Value="@speciality.Qualifier" Name="Qualifier" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow style="margin-bottom: 1rem">
+            
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Min Age" Component="MinAge" style="width: 100%" />
+                <RadzenNumeric style="display: block; width: 100%" @bind-Value="@speciality.MinAge" Name="MinAge" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Max Age" Component="MaxAge" style="width: 100%" />
+                <RadzenNumeric style="display: block; width: 100%" @bind-Value="@speciality.MaxAge" Name="MaxAge" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow style="margin-bottom: 1rem">
+            
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Board Certified" Component="BoardCertified" style="width: 100%" />
+                <RadzenCheckBox @bind-Value="@speciality.BoardCertified" Name="BoardCertified" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Specialist Type" Component="SpecialistType" style="width: 100%" />
+                <RadzenTextBox style="display: block; width: 100%" @bind-Value="@speciality.SpecialistType" Name="SpecialistType" />
+            </RadzenColumn>
+        </RadzenRow>
+
+        <RadzenRow style="margin-bottom: 1rem">
+            
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Expiration Date" Component="ExpirationDate" style="width: 100%" />
+                <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: block; width: 100%" @bind-Value="@speciality.ExpirationDate" Name="ExpirationDate" />
+            </RadzenColumn>
+            <RadzenColumn SizeMD="6">
+                <RadzenLabel Text="Accepting New Patients" Component="AcceptingNewPatients" style="width: 100%" />
+                <RadzenCheckBox @bind-Value="@speciality.AcceptingNewPatients" Name="AcceptingNewPatients" />
+            </RadzenColumn>
+        </RadzenRow>
+
+      
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+            <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Save" Variant="Variant.Flat" />
+            <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Variant="Variant.Flat" Click="@CancelButtonClick" />
+        </RadzenStack>
+    </RadzenTemplateForm>
+</RadzenColumn>
