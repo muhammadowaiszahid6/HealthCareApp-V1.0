@@ -1,0 +1,56 @@
+@page "/withdraws"
+
+<PageTitle>Withdraws</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Withdraws" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@withdraws"    TItem="HealthcareApp.Models.healthcaredb.Withdraw" RowSelect="@EditRow" >
+            <Columns>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="Id" Title="Id">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="FirstName" Title="First Name">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="MiddleName" Title="Middle Name">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="LastName" Title="Last Name">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="DOB" Title="D O B">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="NPI" Title="N P I">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="SSN" Title="S S N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="Ethnicity" Title="Ethnicity">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="CAQHNumber" Title="C A Q H Number">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="WithdrawDate" Title="Withdraw Date">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Property="WithdrawReason" Title="Withdraw Reason">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HealthcareApp.Models.healthcaredb.Withdraw" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="withdraw">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, withdraw)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HealthcareApp
+build_property.RootNamespace = HealthcareApp
+build_property.ProjectDir = F:\app\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\app
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/app/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/AddOrganization.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkT3JnYW5pemF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/AddSpeciality.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3BlY2lhbGl0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/AddWithdraw.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkV2l0aGRyYXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/EditOrganization.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE9yZ2FuaXphdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/EditSpeciality.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFNwZWNpYWxpdHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/EditWithdraw.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFdpdGhkcmF3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/Organizations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JnYW5pemF0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/Specialities.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2lhbGl0aWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/Withdraws.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2l0aGRyYXdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/app/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

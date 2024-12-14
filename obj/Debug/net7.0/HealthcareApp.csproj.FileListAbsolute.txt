@@ -1,0 +1,98 @@
+C:\New folder (2)\bin\Debug\net7.0\appsettings.Development.json
+C:\New folder (2)\bin\Debug\net7.0\appsettings.json
+C:\New folder (2)\bin\Debug\net7.0\HealthcareApp.staticwebassets.runtime.json
+C:\New folder (2)\bin\Debug\net7.0\HealthcareApp.exe
+C:\New folder (2)\bin\Debug\net7.0\HealthcareApp.deps.json
+C:\New folder (2)\bin\Debug\net7.0\HealthcareApp.runtimeconfig.json
+C:\New folder (2)\bin\Debug\net7.0\HealthcareApp.dll
+C:\New folder (2)\bin\Debug\net7.0\HealthcareApp.pdb
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\New folder (2)\bin\Debug\net7.0\Radzen.Blazor.dll
+C:\New folder (2)\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.csproj.AssemblyReference.cache
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.AssemblyInfoInputs.cache
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.AssemblyInfo.cs
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.csproj.CoreCompileInputs.cache
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.MvcApplicationPartsAssemblyInfo.cache
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.RazorAssemblyInfo.cache
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.RazorAssemblyInfo.cs
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets\msbuild.HealthcareApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets\msbuild.build.HealthcareApp.props
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HealthcareApp.props
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HealthcareApp.props
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets.pack.json
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets.build.json
+C:\New folder (2)\obj\Debug\net7.0\staticwebassets.development.json
+C:\New folder (2)\obj\Debug\net7.0\scopedcss\bundle\HealthcareApp.styles.css
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.csproj.CopyComplete
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.dll
+C:\New folder (2)\obj\Debug\net7.0\refint\HealthcareApp.dll
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.pdb
+C:\New folder (2)\obj\Debug\net7.0\HealthcareApp.genruntimeconfig.cache
+C:\New folder (2)\obj\Debug\net7.0\ref\HealthcareApp.dll
+C:\New folder (2)\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\New folder (2)\bin\Debug\net7.0\Humanizer.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\New folder (2)\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\New folder (2)\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\New folder (2)\bin\Debug\net7.0\MySqlConnector.dll
+C:\New folder (2)\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\New folder (2)\bin\Debug\net7.0\System.CodeDom.dll
+C:\New folder (2)\bin\Debug\net7.0\System.IO.Packaging.dll
+F:\app\bin\Debug\net7.0\appsettings.Development.json
+F:\app\bin\Debug\net7.0\appsettings.json
+F:\app\bin\Debug\net7.0\HealthcareApp.staticwebassets.runtime.json
+F:\app\bin\Debug\net7.0\HealthcareApp.exe
+F:\app\bin\Debug\net7.0\HealthcareApp.deps.json
+F:\app\bin\Debug\net7.0\HealthcareApp.runtimeconfig.json
+F:\app\bin\Debug\net7.0\HealthcareApp.dll
+F:\app\bin\Debug\net7.0\HealthcareApp.pdb
+F:\app\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+F:\app\bin\Debug\net7.0\Humanizer.dll
+F:\app\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+F:\app\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+F:\app\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+F:\app\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\app\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\app\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\app\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\app\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\app\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\app\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\app\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\app\bin\Debug\net7.0\MySqlConnector.dll
+F:\app\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+F:\app\bin\Debug\net7.0\Radzen.Blazor.dll
+F:\app\bin\Debug\net7.0\System.CodeDom.dll
+F:\app\bin\Debug\net7.0\System.IO.Packaging.dll
+F:\app\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
+F:\app\obj\Debug\net7.0\HealthcareApp.csproj.AssemblyReference.cache
+F:\app\obj\Debug\net7.0\HealthcareApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\app\obj\Debug\net7.0\HealthcareApp.AssemblyInfoInputs.cache
+F:\app\obj\Debug\net7.0\HealthcareApp.AssemblyInfo.cs
+F:\app\obj\Debug\net7.0\HealthcareApp.csproj.CoreCompileInputs.cache
+F:\app\obj\Debug\net7.0\HealthcareApp.MvcApplicationPartsAssemblyInfo.cache
+F:\app\obj\Debug\net7.0\HealthcareApp.RazorAssemblyInfo.cache
+F:\app\obj\Debug\net7.0\HealthcareApp.RazorAssemblyInfo.cs
+F:\app\obj\Debug\net7.0\staticwebassets.build.json
+F:\app\obj\Debug\net7.0\staticwebassets.development.json
+F:\app\obj\Debug\net7.0\staticwebassets\msbuild.HealthcareApp.Microsoft.AspNetCore.StaticWebAssets.props
+F:\app\obj\Debug\net7.0\staticwebassets\msbuild.build.HealthcareApp.props
+F:\app\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HealthcareApp.props
+F:\app\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HealthcareApp.props
+F:\app\obj\Debug\net7.0\staticwebassets.pack.json
+F:\app\obj\Debug\net7.0\scopedcss\bundle\HealthcareApp.styles.css
+F:\app\obj\Debug\net7.0\Healthca.42D9BF33.Up2Date
+F:\app\obj\Debug\net7.0\HealthcareApp.dll
+F:\app\obj\Debug\net7.0\refint\HealthcareApp.dll
+F:\app\obj\Debug\net7.0\HealthcareApp.pdb
+F:\app\obj\Debug\net7.0\HealthcareApp.genruntimeconfig.cache
+F:\app\obj\Debug\net7.0\ref\HealthcareApp.dll
